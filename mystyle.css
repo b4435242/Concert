@@ -45,8 +45,10 @@ button {
 a {
     text-decoration: none;
     display: inline-block;
+    text-align: center;
     padding: 8px 16px;
     color: #F6D0BA;
+    margin: 30;
 }
 
 .arrow {
@@ -54,6 +56,7 @@ a {
     color: #F6D0BA;
     border: 2px solid #F6D0BA;
     border-radius: 50%;
+    font-size: 1em;
 }
 
 .home {
