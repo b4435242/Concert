@@ -1,37 +1,3 @@
-/* Container needed to position the button. Adjust the width as needed */
-.container {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-  }
-  
-  /* Make the image responsive */
-  .container img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Style the button and place it in the middle of the container/image */
-  .container .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .container .btn:hover {
-    background-color: black;
-  }
-
 .bg-container {
     background-image:url("images/滄浪 A5 外框-16.jpg");
     background-size:cover;
@@ -43,6 +9,15 @@
     height:100%;
   }
 
-  button {
+button {
     display: block;
+    margin: auto;
+    width: 15%;
+    height: 8%;
+    margin-bottom: 2%;
+    background-color: transparent;
+    font-size: 16px;
+    border: 2px solid #F6D0BA;
+    color:#772F07;
+    text-align: center;
 }
