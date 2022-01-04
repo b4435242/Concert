@@ -20,6 +20,5 @@ button {
     border: 2px solid #F6D0BA;
     color:#772F07;
     text-align: center;
-    font-display: auto;
-
+    writing-mode: horizontal-tb;
 }
