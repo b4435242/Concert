@@ -1,23 +1,27 @@
 <html>
     <head>
     <title>濯足滄浪</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="mystyle.css">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
+    <script src="myscripts.js"></script>
     </head>
     <body>
         <div>
             <img id="image" src="" alt="" style="width: 100%;">
             <script>
-                let url = new URL(window.location.href);
-                var page = url.searchParams.get("page");
-                console.log(page);
-                document.getElementById("image").src = "./images/"+page+".jpg";
+                var page = get_page();
+                set_image(page);
             </script>
         </div>
         <div>
-            
+            <a onclick="prev_page()" class="arrow">&#8249;</a>
+            <a href="index.html" class="fa fa-home home"></a>
+            <a onclick="next_page()" class="arrow">&#8250;</a>
         </div>
     </body>
 </html>
+

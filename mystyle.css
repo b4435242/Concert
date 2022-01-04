@@ -41,3 +41,23 @@ button {
     text-align: center;
     writing-mode: horizontal-tb;
 }
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #F6D0BA;
+}
+
+.arrow {
+    background-color: transparent;
+    color: #F6D0BA;
+    border: 2px solid #F6D0BA;
+    border-radius: 50%;
+}
+
+.home {
+    background-color: transparent;
+    color: #F6D0BA;
+    font-size: 1.5em;
+}
