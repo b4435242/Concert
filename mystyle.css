@@ -12,12 +12,14 @@
 button {
     display: block;
     margin: auto;
-    width: 15%;
-    height: 8%;
+    width: 50%;
+    height: 10%;
     margin-bottom: 2%;
     background-color: transparent;
     font-size: 16px;
     border: 2px solid #F6D0BA;
     color:#772F07;
     text-align: center;
+    font-display: auto;
+
 }
